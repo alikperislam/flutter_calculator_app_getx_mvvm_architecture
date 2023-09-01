@@ -188,6 +188,7 @@ class Calculate implements ICalculate {
             else {
               totalValue =
                   totalValue! + (modelCalculate?.calculateValue ?? null)!;
+                  print("deneme");
             }
           }
         }

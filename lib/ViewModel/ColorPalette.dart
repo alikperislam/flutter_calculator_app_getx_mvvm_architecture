@@ -1,6 +1,7 @@
 import 'package:flutter/widgets.dart';
 
 class ColorPalette {
+  //singleton pattern
   static final Color bgColor = Color(0xFF4F758D);
   static final Color containerColor = Color(0xFF305D7E);
   static final Color calculateColor = Color(0xFFB4B4B4);
